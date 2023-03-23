@@ -2,10 +2,10 @@ import os
 from github import Github
 
 # Authenticate to GitHub using a personal access token
-g = Github(os.environ['GITHUB_TOKEN'])
+g = Github(os.environ['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'])
 
 # Replace OWNER and REPO_NAME with your GitHub username and repository name, respectively
-repo = g.get_repo('OWNER/REPO_NAME')
+repo = g.get_repo('KLuering/AutoUpdateApp')
 
 # Replace COMMIT_MESSAGE and CODE_LINE with your desired commit message and code line, respectively
 commit_message = 'Add daily code line'
